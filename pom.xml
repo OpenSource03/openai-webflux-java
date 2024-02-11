@@ -14,8 +14,8 @@
 		<java.version>17</java.version>
 	</properties>
 
-	<groupId>io.github.reactiveclown</groupId>
-	<artifactId>openai-webflux-client-spring-boot-starter</artifactId>
+	<groupId>com.awaitquality</groupId>
+	<artifactId>openaiwebfluxclient</artifactId>
 	<version>0.9.1</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>OpenAI Webflux API client with spring boot starter</description>
@@ -114,20 +114,6 @@
 						<id>attach-javadocs</id>
 						<goals>
 							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-gpg-plugin</artifactId>
-				<version>3.0.1</version>
-				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
 						</goals>
 					</execution>
 				</executions>
